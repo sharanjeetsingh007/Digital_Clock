@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: #17d4fe;
+
+  max-width: 1900px;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1900px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#realTime {
+  font-family: "Orbitron", sans-serif;
+  font-size: 90px;
+  letter-spacing: 7px;
+  transform: translateX(-50%) translateY(-50%);
+}
